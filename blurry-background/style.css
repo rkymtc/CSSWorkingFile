@@ -1,0 +1,33 @@
+body, html {
+    margin: 0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 100%;
+}
+
+.bg-image {
+    height: 100%;
+    background-image: url("flower.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(6px);
+}
+
+.text {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: rgba(255, 255, 255, 0.815);
+    text-align: left;
+    font-weight: bold;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    width: 40%;
+    border-radius: 8px;
+    box-shadow: 2px 2px 24px rgb(0, 0, 0);
+}
+
+h1, h2, p {
+    letter-spacing: 2px;
+}
