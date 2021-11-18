@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+html {
+    
+    scroll-behavior: smooth;
+    background: #f5f5f5;
+}
+
+body {
+    
+    margin: 0;
+    min-height: 100vh;
+}
+
+.icon-bar {
+    width: 100%; /* Tam genişlik */
+    height: 4rem;
+    background-color: #33091e;
+    overflow: auto; /*overflow: otomatik; taşmaları önlemek için*/
+    
+}
+
+.icon-bar a {
+    float:left; /* yan yana getirme (1 diğer yol)*/
+    width:20%;
+    /*display: inline-block; /* 2 yol */
+    /*width: 19.62%; /*Eşit genişlik (her biri %20 genişlikte ve %100'e eşit olacak 5 simge) */
+    text-align: center;
+    padding: 1rem 0;
+    color: #fff;
+    font-size: 1.5rem; /*icon yazı boyutu */
+}
+
+.icon-bar a:hover {
+    background-color: #4d7468; /* Hover colorr*/
+    color: rgb(112, 20, 20);
+}
+.active {
+    background: #820263; /* The active page or link */
+}
+
+/* Image */
+
+.go-image {
+    /* Metni sayfanın tam ortasına yerleştirme 1 yol */
+    display: flex; /* yan yana getirmek için */
+    flex-direction: column; /* alt altana sıralama */
+    justify-content:center; /* ortalama xe göre */
+    align-items: center; /* ortalama ye göre */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./images/ramen.jpg");
+    height: 20rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.go-text {
+   
+    /* Metni sayfanın ortasına yerleştirme 2 yol */
+    /*position: absolute; /* nav ile image arasındaki beyazlığı kaldırır
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);*/
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 0.7rem;
+    line-height: 1rem;
+    text-align: center;}
+
+h1 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    line-height: 0px;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Button özellikleri */
+button {
+    display:inline-block;
+    background-color: #F79C0D;
+    font-family: 'Poppins', sans-serif;
+    border: none; /* Button outline*/
+    color: #fff;
+    padding: 10px 25px;
+    border-radius: 0.5rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+button:hover {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    font-weight: 500;
+}
