@@ -1,0 +1,84 @@
+
+
+body {
+  background: #c19dec;
+}
+
+.conteiner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  position: fixed;
+  left: 0%;
+  border-radius: 500px;
+  width: 300px;
+  height: 300px;
+
+}
+
+h1 {
+  transition: transform 2s;
+  font-size: 40px;
+  color: rgba(110, 10, 204, 0.479);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.card:hover>p {
+  opacity: 1;
+  transform: scale(1.5);
+  top: 80%;
+
+}
+
+img, #parent {
+  cursor: pointer;
+
+}
+
+.card:hover>img {
+  opacity: 1;
+  transform: scale(1.4);
+}
+
+.card .text {
+  position: absolute;
+  top: 120%;
+  left: 0%;
+  padding: 1px;
+  border-radius: 25px;
+  width: 450px;
+  height: 90px;
+  transition: all .5s;
+  opacity: 0;
+}
+
+.card:hover>.text {
+  opacity: 1;
+  width: 300px;
+  height: 90px;
+  transform: translateY(-100px);
+}
+
+.card {
+  transition: transform .7s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 500px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background: white;
+  width: 300px;
+  height: 300px;
+}
+
+.card:hover {
+  transform: scale(1.1)
+}
+
+span {
+  position: relative;
+}
