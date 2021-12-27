@@ -10,3 +10,9 @@
 - [navbar-3](https://navbarthree.netlify.app/)
 - [Product Card](https://products-card.netlify.app/)
 - [Profile Card](https://card-profil.netlify.app/)
+
+
+## Kullanılan Teknolojiler
+
+- Bootstrap
+- Materialize
